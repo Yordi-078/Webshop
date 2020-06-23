@@ -14,7 +14,7 @@
 <body>
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/"><img src="<?=URL?>public/images/logo.png" width="56" height="56"></a>
+            <a class="navbar-brand" href="<?=URL?>index.php"><img src="<?=URL?>public/images/logo.png" width="56" height="56"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
