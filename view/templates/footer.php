@@ -11,7 +11,7 @@
                     <hr class="light">
                     <h5>onze uren</h5>
                     <hr class="light">
-                    <p>maandag: 08:00 - 17:00</p>
+                    <p>maandag t/m vrijdag: 08:00 - 17:00</p>
                     <p>zaterdag: 10:00 - 15:00</p>
                     <p>zondag: Gesloten</p>
                 </div>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-12">
                     <hr class="light">
-                    <h5>&copy; marimowebsites.nl</h5>
+                    <h5>&copy; ytc.nl</h5>
                 </div>
             </div>
         </footer>

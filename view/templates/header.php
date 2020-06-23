@@ -20,8 +20,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-              
+					<li class="nav-item">
+						<a class="nav-link" href="<?=URL?>index.php">Home</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -29,19 +29,16 @@
                             Producten
                         </a>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="">banken</a>
-                            <a class="dropdown-item" href="">stoelen</a>
-                            <a class="dropdown-item" href="">electro</a>
+                            <a class="dropdown-item" href="<?=URL?>banken.php">Banken</a>
+                            <a class="dropdown-item" href="<?=URL?>stoelen.php">Stoelen</a>
+                            <a class="dropdown-item" href="<?=URL?>electro.php">Electro</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                       hoi
+						<a class="nav-link" href="<?=URL?>info.php">Info</a>
                     </li>
                     <li class="nav-item">
-                        doei
-                    </li>
-                    <li class="nav-item">
-                        hallo
+						<a class="nav-link" href="<?=URL?>contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
