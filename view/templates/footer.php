@@ -1,10 +1,10 @@
 <footer class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="~/img/logo.png" width="50" height="50">
+                <img src="<?=URL?>public/images/logo.png" width="56" height="56">
                     <hr class="light">
                     <p>06123456</p>
-                    <p><a href="mailto:info@marimowebsites.nl">info@marimowebsites.nl</a></p>
+                    <p><a href="mailto:info@ytc.nl">info@ytc.nl</a></p>
                 </div>
 
                 <div class="col-md-4">
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-12">
                     <hr class="light">
-                    <h5>&copy; marimowebsites.nl</h5>
+                    <h5>&copy; YTC 2020</h5>
                 </div>
             </div>
         </footer>
