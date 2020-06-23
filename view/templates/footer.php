@@ -1,7 +1,7 @@
 <footer class="container-fluid padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="~/img/logo.png" width="50" height="50">
+                <img src="<?=URL?>public/images/logo.png" width="50" height="50">
                     <hr class="light">
                     <p>06123456</p>
                     <p><a href="mailto:info@marimowebsites.nl">info@marimowebsites.nl</a></p>
