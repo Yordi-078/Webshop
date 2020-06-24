@@ -2,8 +2,37 @@
 require(ROOT . "model/EmptyModel.php");
 
 
+
 function index()
 {
-	$connection = checkConnection();
-    render('empty/index', ['connection' => $connection]);
+	$products= getAllProducts();
+    render('empty/index', ['webshop' => $products]);
+
+  
 }
+
+
+
+function createProduct(){
+   render("empty/createProduct");
+
+}
+
+function storeProduct(){
+    $name = $_POST["name"];
+    $image = $_POST["image"];
+    $description = $_POST["description"];
+    $category = $_POST["category"];
+	$price = $_POST['price'];
+
+	 createP($name, $image, $description, $category, $price);
+
+	 
+	 header("Location:" . URL . "empty/index");
+
+}
+
+function oneProduct(){
+    render("empty/oneProduct");
+ 
+ }

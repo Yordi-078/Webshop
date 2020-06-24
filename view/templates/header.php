@@ -25,7 +25,7 @@
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="" id="navbardrop" data-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="<?=URL?>products.php" id="navbardrop" data-toggle="dropdown">
                             Producten
                         </a>
                         <div class="dropdown-menu">
@@ -33,6 +33,9 @@
                             <a class="dropdown-item" href="<?=URL?>stoelen.php">Stoelen</a>
                             <a class="dropdown-item" href="<?=URL?>electro.php">Electro</a>
                         </div>
+                    </li>
+                    <li class="nav-item">
+						<a class="nav-link" href="<?= URL ?>empty/createProduct">Product toevoegen</a>
                     </li>
                     <li class="nav-item">
 						<a class="nav-link" href="<?=URL?>info.php">Info</a>
