@@ -26,8 +26,9 @@ function createP($name, $image, $description, $category, $price){
 
  function getProductById($id){
     $conn = openDataBaseConnection();
-    $stmt = $conn->prepare("SELECT * from producten where id = :id");
-    $stmt->execute([':id' => $id]);
+	$stmt = $conn->prepare("SELECT * from producten where id = :id");
+	$stmt->bindParam(':id' , $id);
+    $stmt->execute();
     return $stmt->fetch();
 
 }

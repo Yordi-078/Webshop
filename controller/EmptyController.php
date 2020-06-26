@@ -32,7 +32,8 @@ function storeProduct(){
 
 }
 
-function oneProduct(){
-    render("empty/oneProduct");
+function oneProduct($id){
+    $products = getProductById($id);
+    render('empty/oneProduct', ['products' => $products]);
  
  }
