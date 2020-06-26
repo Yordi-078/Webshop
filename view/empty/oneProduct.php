@@ -10,6 +10,7 @@
   <ul class="list-group list-group-flush">
     <li class="list-group-item">category: <?= $products["category"]?></li>
     <li class="list-group-item">€<?= $products["price"] ?></li>
+    <a href="<?=URL?>empty/deleteProduct/<?=$products['id']?>" class="card-link">Delete</a>
   </ul>
   <div class="card-body">
   </div>

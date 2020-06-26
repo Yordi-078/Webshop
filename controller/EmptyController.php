@@ -37,3 +37,17 @@ function oneProduct($id){
     render('empty/oneProduct', ['products' => $products]);
  
  }
+
+ function deleteProduct($id){
+    //1. Haal een medewerker op met een specifiek id en sla deze op in een variable
+      $id = getProductById($id);
+    //2. Geef een view weer voor het verwijderen en geef de variable met medewerker hieraan mee
+    render('empty/deleteProduct', ['id' => $id]);
+}
+
+function destroyProduct($id){
+    //1. Delete een medewerker uit de database
+    deleteProduct2($id);
+	//2. Bouw een url en redirect hierheen
+   header("Location:" . URL . "empty/index");
+}

@@ -32,3 +32,10 @@ function createP($name, $image, $description, $category, $price){
     return $stmt->fetch();
 
 }
+
+function deleteProduct2($id){
+    $conn= openDatabaseConnection();
+    $stmt = $conn->prepare("DELETE FROM producten where id = :id ");
+    $stmt->bindParam(":id", $id);
+    $stmt->execute();
+ }
