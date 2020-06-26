@@ -1,37 +1,5 @@
 <div>
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <ul class="carousel-indicators">
-                <li data-target="#slides" data-slide-to="0" class="active"></li>
-                <li data-target="#slides" data-slide-to="1"></li>
-                <li data-target="#slides" data-slide-to="2"></li>
-            </ul>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="<?=URL?>public/images/background.png">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">YTC</h1>
-                        <h3>hoi</h3>
-                        <button type="button" class="btn btn-outline-light btn-lg">bekijken</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-					<img src="<?=URL?>public/images/background.png">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">YTC</h1>
-                        <h3>hallo</h3>
-                        <button type="button" class="btn btn-outline-light btn-lg">bekijken</button>
-                    </div>
-                </div>
-                <div class="carousel-item">
-				<img src="<?=URL?>public/images/background.png">
-                    <div class="carousel-caption">
-                        <h1 class="display-2">YTC</h1>
-                        <h3>goedemorgen</h3>
-                        <button type="button" onclick="" class="btn btn-outline-light btn-lg">bekijken</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <div class="container-fluid">
             <div class="row jumbotron">
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
