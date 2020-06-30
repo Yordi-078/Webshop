@@ -41,7 +41,7 @@
 						<a class="nav-link" href="<?=URL?>info.php">Info</a>
                     </li>
                     <li class="nav-item">
-						<a class="nav-link"href="<?=URL?>#"><img src="<?=URL?>public/images/winkelwagen.png"width="56" height="56"></a>
+						<a class="nav-link"href="<?=URL?>empty/winkelwagen"><img src="<?=URL?>public/images/winkelwagen.png"width="56" height="56"></a>
                     </li>
                 </ul>
             </div>

@@ -73,3 +73,4 @@ function updateProduct(){
     header("Location:" . URL . "empty/index");
 
 }
+

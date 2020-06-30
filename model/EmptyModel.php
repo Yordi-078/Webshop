@@ -54,3 +54,4 @@ function deleteProduct2($id){
     $conn = null;
     return $stmt; 
  }
+
