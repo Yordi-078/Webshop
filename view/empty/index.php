@@ -1,12 +1,11 @@
 <div>
-        
         <div class="container-fluid">
             <div class="row jumbotron">
                 <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
                     <p class="lead">Wij hebben al onze producten voor u klaar staan!</p>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-                    <a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">bekijken</button></a>
+                    <a href="<?=URL?>/view/empty/index.php"><button type="button" class="btn btn-outline-secondary btn-lg">bekijken</button></a>
                 </div>
             </div>
         </div>
